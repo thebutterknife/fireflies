@@ -5,6 +5,7 @@
 #define MIN_RAND 5000   // min 5 seconds until next blink
 
 // create a pixel strand with 1 pixel on PIN_NEOPIXEL
+
 Adafruit_NeoPixel pixels(1, PIN_NEOPIXEL);
 
 class FireFly {
